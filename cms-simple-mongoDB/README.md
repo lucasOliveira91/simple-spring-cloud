@@ -1,7 +1,18 @@
 # Spring Application - Reactive Stream Spec
 
 Reactive Stream Spec is the specification that provides a standard for
-asynchronous programming for stream processing
+asynchronous programming for stream processing.
+
+Spring reactive uses the Project Reactor as the implementation for the Reactive
+Streams. The Project Reactor is powered by Pivotal and has the very good
+implementation of the Reactive Streams Spec.
+
+The Project Reactor was created by the Spring and Pivotal teams. This project is an
+implementation of Reactive Streams for JVM. It is a fully non-blocking foundation
+and helps developers to create a non-blocking application in the JVM ecosystem.
+
+There is a restriction to using Reactor. The project runs on Java 8
+and above.
 
 ## Using:
 * MongoDB
