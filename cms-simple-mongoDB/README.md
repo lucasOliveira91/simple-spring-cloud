@@ -1,4 +1,7 @@
-# Spring Application
+# Spring Application - Reactive Stream Spec
+
+Reactive Stream Spec is the specification that provides a standard for
+asynchronous programming for stream processing
 
 ## Using:
 * MongoDB
