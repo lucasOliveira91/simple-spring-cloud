@@ -14,7 +14,7 @@ Case you want push your container to Docker HuB, change the docker id inside the
 and create a network to attach with container 
 - **docker network create cms-application**
 After start the container
--* *docker run -d --name mongodb --net cms-application -p 27017:27017 mongo:3.4.10**
+- **docker run -d --name mongodb --net cms-application -p 27017:27017 mongo:3.4.10**
 Case you want a tool to see mongo data, use the "mongo-express" with command: 
 - **docker run -d --link mongodb:mongo --net cms-application -p 8081:8081 mongo-express**
 end go to http://localhost:8081.
